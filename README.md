@@ -13,11 +13,13 @@
 
 ### Installing
 
-To start make sure the above dependencies are installed on your local machine as we will be using a Pixel 3 emulator thru the android studio AVD to run this test. Once you have the Emulator running on your device we will install the OOKLA apk. 
+To start make sure the above dependencies are installed on your local machine as we will be using a Pixel 3 emulator (see photo below) thru the android studio AVD to run this test. Once you have the Emulator running on your device we will install the OOKLA apk. 
 
-![Image of AVD](appium.png)
+![Image of AVD](avd.png)
 
-Once that is installed and working we can run our appium server which will allow our script to communicate with the emulator. This is done thru the appium desktop application. 
+Once that is installed and working we can run our appium server which will allow our script to communicate with the emulator. This is done thru the appium desktop application. Photo below show how it should look.
+
+![Image of Appium](appium.png)
 
 Once both the emulator and appium server are running you can start this script by running the following commands
 
@@ -40,6 +42,10 @@ The capabilites JSON is what determines the coonnectgion between the appium serv
 }
 
 ```
+
+Here is an example of how the the script should run and interact with the emulator. 
+
+![Video of Script](appium-screen-record.gif)
 
 
 
