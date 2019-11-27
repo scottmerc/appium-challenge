@@ -5,10 +5,10 @@
 
 ### Prerequisites
 
-node v12.12.0
-npm 6.11.3
-appium 1.15.1
-android studio SDK & AVD
+1. node v12.12.0
+2. npm 6.11.3
+3. appium 1.15.1
+4. Android studio SDK & AVD
 
 
 ### Installing
@@ -22,10 +22,9 @@ Once both the emulator and appium server are running you can start this script b
 ```
 cd /the/exisiting/directory
 node index.js
-
 ```
 
-The capabilites JSON is what determines the connectioon between appium and the mobile application. This is how i have configured but may very on your emulator and device. 
+The capabilites JSON is what determines the coonnectgion between the appium server and the mobile application. This is how I have configured but may very on your emulator and device. 
 
 ```
 { 
