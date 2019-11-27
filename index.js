@@ -28,7 +28,7 @@ async function main() {
     click("org.zwanoo.android.speedtest:id/go_button");
 
     //This function waits till the speed test is done and grabs the Upload, Download, and Ping speeds and displays them to the console. 
-    showResults();
+    await showResults();
 
     var hrend = process.hrtime(hrstart) //end time for exectuion 
     console.info('Execution time: %ds ', hrend[0]);
