@@ -1,6 +1,6 @@
 # Appium Challenge 
 
- Automated native Android application by Ookla on Android Emulator using javascript webdriver package WD.js and Appium
+ Automated native Android application Ookla on an Android Emulator using javascript webdriver package WD.js and Appium.
 
 
 ### Prerequisites
@@ -15,12 +15,15 @@
 
 To start make sure the above dependencies are installed on your local machine as we will be using a Pixel 3 emulator thru the android studio AVD to run this test. Once you have the Emulator running on your device we will install the OOKLA apk. 
 
+![Image of AVD](appium.png)
+
 Once that is installed and working we can run our appium server which will allow our script to communicate with the emulator. This is done thru the appium desktop application. 
 
 Once both the emulator and appium server are running you can start this script by running the following commands
 
 ```
 cd /the/exisiting/directory
+npm install
 node index.js
 ```
 
