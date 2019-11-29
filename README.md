@@ -43,9 +43,6 @@ The capabilites JSON is what determines the coonnectgion between the appium serv
 
 ```
 
-Here is an example of how the the script should run and interact with the emulator. 
-
-![Video of Script](appium-screen-record.gif)
 
 
 
